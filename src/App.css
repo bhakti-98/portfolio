@@ -66,6 +66,10 @@ body {
   margin: 0px;
 }
 
+#about {
+  margin-top: 0px;
+}
+
 #top-bar {
   background-color: #6290C8;
   color: #fff;

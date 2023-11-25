@@ -24,7 +24,7 @@ function App() {
         <div id="content">
           <br />
           <div id="about-me">
-            <h2>About Me</h2>
+            <h2 id="about">About Me</h2>
             <p>Hi, I am a Short-Term Consultant for the Coalition for Disaster Resilient Infrastructure (CDRI) in Delhi, India. I work in the area of disaster risk reduction across energy systems and transportation, primarily focussing on infrastructure resilience and recovery in the face of natural catastrophes. Previously, some of the places I have worked at include Swiss Re, NITI Aayog and Invest India.</p>
             <p>I have a Master’s degree in Economics from Jamia Millia Islamia and a Bachelor’s degree in Economics from College of Vocational Studies, Delhi University. You can also find my CV here.</p>
           </div>
