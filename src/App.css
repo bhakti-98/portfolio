@@ -22,9 +22,12 @@ body {
   /* Prevents the box shadow from being clipped */
   margin: 50px;
   gap: 80px;
-  justify-content: center;
   width: 80%;
   margin: 0px auto;
+}
+
+#work-header {
+  left: 0;
 }
 
 #content {
@@ -37,6 +40,7 @@ body {
   width: 30%;
   /* Set the width to 2/3 of the container (100 / 1.5) */
   height: 100%;
+  margin-top: 40px;
 }
 
 #image img {
@@ -148,7 +152,7 @@ body {
   #image {
     overflow: hidden;
     width: 100%;
-    /* Set the width to 2/3 of the container (100 / 1.5) */
+    margin-top: 0px;
   }
 
   #content {

@@ -54,8 +54,12 @@ function App() {
         </div>
       </div>
       <div id="workcontainer">
-        <div id="works">
+        <div id="works-header">
           <h2>Work Experience</h2>
+        </div>
+      </div>
+      <div id="workcontainer">
+        <div id="works">
           {projects.map((project, index) => {
             if (index < 4) return (
               <div key={index} className="project">
@@ -70,8 +74,8 @@ function App() {
             )
           })}
         </div>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <div id="works">
           {projects.map((project, index) => {
             if (index >= 4) return (
