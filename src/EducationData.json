@@ -1,0 +1,31 @@
+[
+    {
+      "degree": "Master of Arts, Economics",
+      "institution": "Jamia Millia Islamia (JMI), New Delhi",
+      "duration": "2019-2021",
+      "gpa": "8.30/10.00",
+      "division": "First division with distinction"
+    },
+    {
+      "degree": "Bachelor of Arts, Economics (Honours)",
+      "institution": "College of Vocational Studies (CVS), University of Delhi",
+      "duration": "2016-2019",
+      "gpa": "8.08/10.00",
+      "division": "First division with distinction"
+    },
+    {
+      "degree": "Grade 12 (AISSCE) - Physics, Chemistry, Mathematics, Economics, English",
+      "institution": "Ryan International School, Vasant Kunj, New Delhi",
+      "duration": "2014-2016",
+      "percentage_best_four": "94.5%",
+      "percentage_overall": "91.4%"
+    },
+    {
+      "degree": "Grade 10 (AISSE) - Science, Social Science, Mathematics, Hindi, English",
+      "institution": "Ryan International School, Vasant Kunj, New Delhi",
+      "duration": "2012-2014",
+      "percentage": "95%",
+      "gpa": "10.00/10.00"
+    }
+  ]
+  
