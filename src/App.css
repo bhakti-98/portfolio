@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+.section::-webkit-scrollbar {
+  width: 16px;
+}
+
+.section::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+  border-radius: 100px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -75,24 +89,30 @@ body {
 }
 
 #top-bar {
-  background-color: #6290C8;
-  color: #fff;
+  background-color: #8c8a47;
+  color: rgba(140,138,71,255);
   padding: 10px;
   text-align: center;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
 }
 
 #top-bar a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
   transition: color 0.3s ease-in-out;
+  font-weight: bolder;
 }
 
 #top-bar a:hover {
-  color: #2D2E2E;
+  color: #532116;
   /* Change the color on hover */
 }
 
@@ -116,6 +136,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
   font-size: 3vh;
+  margin-top: 13vh;
 }
 
 #about-me {
@@ -134,7 +155,7 @@ body {
 }
 
 .project {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-bottom: 15px;
   padding-top: 5px;
 }
