@@ -9,7 +9,7 @@ function Navbar() {
         <BrowserRouter>
             <div>
                 <div id="top-bar">
-                    <a href="#home"><Link to="/">Home</Link></a>
+                    <a href="#home"><Link to="/portfolio">Home</Link></a>
                     <a href="#research"> <Link to="/research">Research</Link></a>
                     <a href="#cv">CV</a>
 
